@@ -57,6 +57,11 @@ extern int value;
 void handle_command(char *argv);
 
 int get_opc(stack_t **stack, char *arg, char *item, int count);
+void cleanStack(stack_t **stack);
+
+/*Help*/
+int _isdigit(char *c);
+stack_t *new_Node(int n);
 
 void _push(stack_t **stack, unsigned int line_number);
 void _pall(stack_t **stack, unsigned int line_number);
