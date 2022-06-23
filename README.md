@@ -31,13 +31,13 @@
 Please use the following data structures for this project. Don’t forget to include them in your header file.
 
 /**
- * struct stack_s - doubly linked list representation of a stack (or queue)
- * @n: integer
- * @prev: points to the previous element of the stack (or queue)
- * @next: points to the next element of the stack (or queue)
+ *struct stack_s - doubly linked list representation of a stack (or queue)
+ *@n: integer
+ *@prev: points to the previous element of the stack (or queue)
+ *@next: points to the next element of the stack (or queue)
  *
- * Description: doubly linked list node structure
- * for stack, queues, LIFO, FIFO
+ *Description: doubly linked list node structure
+ *for stack, queues, LIFO, FIFO
  */
 typedef struct stack_s
 {
@@ -46,12 +46,12 @@ typedef struct stack_s
         struct stack_s *next;
 } stack_t;
 /**
- * struct instruction_s - opcode and its function
- * @opcode: the opcode
- * @f: function to handle the opcode
+ *struct instruction_s - opcode and its function
+ *@opcode: the opcode
+ *@f: function to handle the opcode
  *
- * Description: opcode and its function
- * for stack, queues, LIFO, FIFO
+ *Description: opcode and its function
+ *for stack, queues, LIFO, FIFO
  */
 typedef struct instruction_s
 {
